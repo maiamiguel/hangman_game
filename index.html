@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jogo da Forca</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 	<link rel="stylesheet" type="text/css" href="css/app.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script type="text/javascript" src="js/palavras.js"></script>
+    
+</head>
+
+<body>
+	<h1 id="titulo">Jogo da Forca</h1>
+    <div>
+        <img id="imagem" src="img/enforcado6.gif" />
+        <div id="freedom"> </div>
+    </div>
+    <script type="text/javascript" src="js/app(funcionar).js"> </script>
+
+    <div >
+    	<h2 id="palavra"></h2>
+    </div>
+
+    <div id="botoes">
+
+    </div>
+    <button id="New_Game" class="btn btn-primary" value="Novo Jogo" onclick="window.location.reload()">Novo Jogo</button>
+    <button id="New_Word" class="btn btn-primary" value="Nova Palavra" onclick="Nova_palavra()">Nova Palavra</button>
+    <button id="Score" class="btn btn-primary" onclick="Pontuação()">Pontuação</button>
+    <div>
+        <h3>Letras que já foram selecionadas pelo utilizador:</h3>
+        <h4 id="Letras_escolhidas"></h4>
+    </div>
+
+    <div><button id="Ajuda" class="btn btn-info" onclick="alert(' Como jogar: Vai ser escolhida uma palavra aleátoria de uma lista predeterminada e o teu trabalho é adivinhar qual é essa palavra usando os botôes.\n Quando acertas numa letra o espaço correspondente no ecra sera preenchido por dita letra. Se escolheres a letra errada ficas mais proximo de morrer. Podes errar no máximo 5 vezes e a sexta perdes o jogo.\n Boa sote e diverte-te.')" >Ajuda</button></div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body {
+	text-align: center;
+}
+
+button {
+	padding: 10px;
+
+}
+#Ajuda { 
+ 	
+	top: 30px;
+	right: 30px;
+	width: 55px;
+    height: 40px;
+    position: absolute;
+    cursor: help;
+	
+	}
+#titulo {
+	color: blue;
+}
+
+#New_Game, #Score, #New_Word {
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 15px;
+}
+
+
